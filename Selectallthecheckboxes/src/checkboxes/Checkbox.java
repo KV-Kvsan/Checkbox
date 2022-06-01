@@ -23,7 +23,7 @@ public class Checkbox {
 				//To click the unchecked checkboxes only
 				//webElement.click();
 				
-				//To click all the checkboxes and if the checkboxes is already selected that will not be affected or it will not be unchecked
+				//To click all the checkboxes and if the checkboxes is already selected that will not be affected and it will not be unchecked
 				if(!webElement.isSelected())
 				{	
 					webElement.click();
